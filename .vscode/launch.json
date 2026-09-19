@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations":[
+        {
+            "name": "Debug lesson01",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "build lesson01",
+            "program":"${workspaceFolder}/lesson01/build/main.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/lesson01",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe"
+        }
+    ]
+}
